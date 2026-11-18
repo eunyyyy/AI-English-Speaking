@@ -9,3 +9,7 @@
 ## 업데이트 저장
 
 수정은 이 외장하드 폴더에서 진행합니다. 변경 후 GitHub 저장소 `eunyyyy/AI-English-Speaking`에 커밋과 푸시를 반영해 버전을 함께 보관합니다. 저장소는 공개이며, `main` 브랜치 업데이트마다 GitHub Pages에 자동 배포됩니다.
+
+## 계정 복구 및 저장 범위
+
+마이페이지에서 표시 이름·복구 이메일·비밀번호를 관리합니다. 비밀번호 재설정 UI는 `/api/auth/password-reset/request` 및 `/api/auth/password-reset/confirm` API를 호출합니다. 현재 GitHub Pages 정적 배포에는 이 API가 없으므로 실제 이메일 발송과 재설정은 백엔드 배포 뒤 활성화됩니다. 화면은 서버 미연결 상태에서 발송 성공을 가장하지 않습니다.
