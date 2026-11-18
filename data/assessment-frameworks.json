@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "method": "Original placement questions mapped to public framework descriptors; not an official exam or score report.",
+  "frameworks": {
+    "cambridge": {
+      "name": "Cambridge English / CEFR",
+      "levels": [
+        "Pre-A1",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "skills": [
+        "reading",
+        "writing",
+        "listening",
+        "speaking",
+        "use_of_english"
+      ],
+      "source": "https://www.cambridgeenglish.org/exams-and-tests/cefr/"
+    },
+    "oxford": {
+      "name": "Oxford Learner's Dictionaries word lists",
+      "vocabulary": "Oxford 3000 aligns core vocabulary from A1 to B2; Oxford 5000 adds B2-C1 words. This app uses original sample words and CEFR bands, not copied proprietary lists.",
+      "source": "https://www.oxfordlearnersdictionaries.com/about/wordlists/cefr.html"
+    },
+    "ielts": {
+      "name": "IELTS public band descriptors",
+      "skills": [
+        "listening",
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "speakingCriteria": [
+        "fluency_and_coherence",
+        "lexical_resource",
+        "grammatical_range_and_accuracy",
+        "pronunciation"
+      ],
+      "writingCriteria": [
+        "task_response",
+        "coherence_and_cohesion",
+        "lexical_resource",
+        "grammatical_range_and_accuracy"
+      ],
+      "source": "https://www.ielts.org/take-a-test/your-results/ielts-scoring-in-detail"
+    },
+    "toeicSpeaking": {
+      "name": "TOEIC Speaking",
+      "scale": "0-200 scaled score; workplace task styles include reading aloud, describing, responding to questions, and expressing opinions.",
+      "source": "https://www.ets.org/toeic/about/speaking-writing.html"
+    }
+  },
+  "skills": [
+    "vocabulary",
+    "grammar",
+    "reading",
+    "writing",
+    "speaking",
+    "listening"
+  ],
+  "questions": [
+    {
+      "id": "v1",
+      "skill": "vocabulary",
+      "prompt": "‘borrow’의 뜻을 고르세요.",
+      "options": [
+        "빌리다",
+        "빌려주다",
+        "고르다",
+        "기억하다"
+      ],
+      "answer": 0,
+      "cefr": "A2"
+    },
+    {
+      "id": "v2",
+      "skill": "vocabulary",
+      "prompt": "빈칸에 가장 자연스러운 단어를 고르세요: ‘The meeting was ___ because the manager was ill.’",
+      "options": [
+        "cancelled",
+        "invited",
+        "comfortable",
+        "usually"
+      ],
+      "answer": 0,
+      "cefr": "B1"
+    },
+    {
+      "id": "g1",
+      "skill": "grammar",
+      "prompt": "문법에 맞는 문장을 고르세요.",
+      "options": [
+        "She has lived here for three years.",
+        "She live here since three years.",
+        "She is live here for three years.",
+        "She lived here since three years."
+      ],
+      "answer": 0,
+      "cefr": "B1"
+    },
+    {
+      "id": "g2",
+      "skill": "grammar",
+      "prompt": "‘If I ___ more time, I would learn another language.’",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "am having"
+      ],
+      "answer": 1,
+      "cefr": "B2"
+    },
+    {
+      "id": "r1",
+      "skill": "reading",
+      "prompt": "Read: ‘Mina used to drive to work, but since the new train line opened, she takes the train. It is cheaper and she can read on the way.’ Why does Mina take the train?",
+      "options": [
+        "It is cheaper and lets her read.",
+        "She no longer has a car.",
+        "The office moved.",
+        "She dislikes reading."
+      ],
+      "answer": 0,
+      "cefr": "A2"
+    },
+    {
+      "id": "r2",
+      "skill": "reading",
+      "prompt": "Read: ‘Although the pilot program improved attendance, its effect on final exam results remains unclear because participating schools also received additional tutoring.’ What is the main limitation?",
+      "options": [
+        "Attendance was not measured.",
+        "Tutoring makes it hard to attribute exam changes to the pilot alone.",
+        "No schools participated.",
+        "Exam results were already published."
+      ],
+      "answer": 1,
+      "cefr": "C1"
+    },
+    {
+      "id": "w1",
+      "skill": "writing",
+      "type": "text",
+      "prompt": "Write one or two English sentences about a hobby you enjoy and why.",
+      "minWords": 8,
+      "cefr": "A2"
+    },
+    {
+      "id": "w2",
+      "skill": "writing",
+      "prompt": "Choose the clearest sentence for a polite work email.",
+      "options": [
+        "Send me the file now.",
+        "Could you send me the updated file by Friday, please?",
+        "You sending file Friday.",
+        "I want file, okay?"
+      ],
+      "answer": 1,
+      "cefr": "B1"
+    },
+    {
+      "id": "s1",
+      "skill": "speaking",
+      "type": "speech",
+      "prompt": "Say aloud: ‘Hello, my name is Alex. I enjoy learning new things.’",
+      "minWords": 7,
+      "cefr": "A1"
+    },
+    {
+      "id": "s2",
+      "skill": "speaking",
+      "type": "text",
+      "prompt": "Type an English answer: What is one change that would improve your neighborhood, and why?",
+      "minWords": 12,
+      "cefr": "B1"
+    },
+    {
+      "id": "l1",
+      "skill": "listening",
+      "type": "audio",
+      "prompt": "Listen to the short announcement. When does the train leave?",
+      "audio": "The train to Brighton leaves at quarter past six from platform two.",
+      "options": [
+        "6:15 from platform 2",
+        "6:50 from platform 12",
+        "5:15 from platform 2",
+        "6:15 from platform 3"
+      ],
+      "answer": 0,
+      "cefr": "A2"
+    }
+  ]
+}
