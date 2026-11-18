@@ -1,0 +1,16 @@
+{
+  "datasets": [
+    {
+      "name": "Open English-Korean Dictionary",
+      "url": "https://github.com/jhseo1211/open-english-korean-dict",
+      "license": "CC-BY-SA-4.0",
+      "included": "15,000 English lemmas, Korean meanings, community CEFR labels, IPA where available, and source frequency ranks."
+    },
+    {
+      "name": "English Vocabulary by tema4p",
+      "url": "https://github.com/tema4p/english-vocabulary",
+      "license": "CC-BY-NC-4.0",
+      "included": "English-Korean idiom and phrasal-verb definitions."
+    }
+  ]
+}

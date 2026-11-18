@@ -1,0 +1,1 @@
+window.DAILY_ENGLISH_FIREBASE_CONFIG={apiKey:'AIzaSyCPzWJzZ6NMZkJTff3wZNPgPW19bAFfWBI',authDomain:'daily-english-7fed4.firebaseapp.com',projectId:'daily-english-7fed4',storageBucket:'daily-english-7fed4.firebasestorage.app',messagingSenderId:'539518249923',appId:'1:539518249923:web:1435ce50a7b9208e312b76'};
