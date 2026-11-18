@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "description": "Daily English starter vocabulary bank",
+  "words": [
+    {"id":1,"en":"actually","type":"adverb","ko":"사실은, 실제로","example":"I actually like rainy days.","translation":"나는 사실 비 오는 날을 좋아해요."},
+    {"id":2,"en":"borrow","type":"verb","ko":"빌리다","example":"Can I borrow your pen?","translation":"펜을 빌려도 될까요?"},
+    {"id":3,"en":"choose","type":"verb","ko":"고르다, 선택하다","example":"You can choose any seat.","translation":"어떤 자리든 고르셔도 돼요."},
+    {"id":4,"en":"delicious","type":"adjective","ko":"맛있는","example":"This soup is delicious.","translation":"이 수프는 맛있어요."},
+    {"id":5,"en":"enough","type":"adverb","ko":"충분히, 충분한","example":"We have enough time.","translation":"우리에겐 시간이 충분해요."},
+    {"id":6,"en":"friendly","type":"adjective","ko":"친절한, 다정한","example":"Everyone here is friendly.","translation":"여기 사람들은 모두 친절해요."},
+    {"id":7,"en":"happen","type":"verb","ko":"일어나다, 발생하다","example":"What happened yesterday?","translation":"어제 무슨 일이 있었나요?"},
+    {"id":8,"en":"important","type":"adjective","ko":"중요한","example":"Sleep is important for your health.","translation":"수면은 건강에 중요해요."},
+    {"id":9,"en":"usually","type":"adverb","ko":"보통, 대개","example":"I usually walk to work.","translation":"나는 보통 걸어서 출근해요."},
+    {"id":10,"en":"wonderful","type":"adjective","ko":"멋진, 훌륭한","example":"We had a wonderful weekend.","translation":"우리는 멋진 주말을 보냈어요."}
+  ]
+}
