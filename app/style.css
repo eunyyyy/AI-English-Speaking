@@ -9,3 +9,5 @@
 +@media(max-width:760px){.result-columns,.mypage-grid{grid-template-columns:1fr}.survey-options,.assessment-options{grid-template-columns:1fr}.history-item{grid-template-columns:75px 1fr auto}.history-item small{display:none}.result-hero{gap:12px;padding:16px}.result-level{width:58px;height:58px;font-size:18px}.assessment-card,.account-card{padding:18px}.account-menu{top:43px}.recommendation-actions{display:grid}.profile-button .profile-copy{display:none}}
 
 .account-edit-card{display:grid;gap:15px}.account-edit-card>form{display:grid;gap:10px;border-top:1px solid #edf0ed;padding-top:14px}.account-edit-card h3,.reset-panel h3{font-size:12px;margin:0}.reset-panel{border-top:1px solid #edf0ed;padding-top:14px}.reset-panel p{font-size:10px;color:#879289;line-height:1.7}.reset-panel form{display:grid;gap:9px;margin-top:10px}.account-card .text-button{justify-self:start}
+
+.account-actions{margin-left:auto;display:flex;gap:7px}.account-summary{flex-wrap:wrap}.account-data-note{background:#fff8ed;border-radius:8px;margin-top:10px}
