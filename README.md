@@ -8,4 +8,4 @@
 
 ## 업데이트 저장
 
-수정은 이 외장하드 폴더에서 진행합니다. 변경 후 GitHub 저장소 `eunyyyy/AI-English-Speaking`에 커밋과 푸시를 반영해 버전을 함께 보관합니다. 현재 비공개 저장소로 유지 중이며, GitHub Pages는 계정 플랜 제한으로 활성화되지 않았습니다.
+수정은 이 외장하드 폴더에서 진행합니다. 변경 후 GitHub 저장소 `eunyyyy/AI-English-Speaking`에 커밋과 푸시를 반영해 버전을 함께 보관합니다. 저장소는 공개이며, `main` 브랜치 업데이트마다 GitHub Pages에 자동 배포됩니다.
